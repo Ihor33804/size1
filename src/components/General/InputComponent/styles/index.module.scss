@@ -1,0 +1,129 @@
+
+input[type="text"]::-ms-input-placeholder,
+input[type="password"]::-ms-input-placeholder,
+input[type="number"]::-ms-input-placeholder,
+input[type="email"]::-ms-input-placeholder {
+    color: #ADADAD;
+}
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="number"]::placeholder,
+input[type="email"]::placeholder {
+    color: #ADADAD;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder
+{
+    color: #ADADAD;
+}
+
+.input-block {
+    position: relative;
+}
+.input {
+    // max-width: 624px;
+    width: 100%!important;
+    height: 60px!important;
+    background: #F5F3FA!important;
+    border: 0!important;
+    border-radius: 0!important;
+    box-sizing: border-box!important;
+    font-family: Proxima Nova!important;
+    font-size: 16px!important;
+    // line-height: 12px!important;
+  //  padding: 25px 20px!important;
+    padding-left: 20px!important;
+    padding-right: 50px!important;
+    color: #000000!important;
+}
+
+
+input::-ms-clear, input::-ms-reveal  {
+    display: none;
+}
+input:disabled {
+    background: #F5F3FA!important;
+    
+}
+.input:focus {
+    outline: none!important;
+}
+.input[placeholder]   {
+
+    font-size: 16px!important;
+}
+.icon-block-complete {
+    position: relative;
+}
+.icon-input {
+    position: absolute;
+    right: 20px; 
+    bottom: 14px;
+    z-index: 10;
+    float: right;
+    cursor: pointer;
+
+}
+.confirm-input-block {
+  //  position: relative;
+  margin-top: 30px;
+}
+.confirm-input {
+    // position: absolute;
+    // right: 20px; 
+    // bottom: 15px;
+    // z-index: 10;
+    // float: right;
+    // font-family: Proxima Nova;
+    // font-weight: 600;
+    // font-size: 16px;
+    // line-height: 19px;
+    // color: #131313;
+    // cursor: pointer;
+
+    background: #7F7D80 !important;
+    border: 1px solid #7F7D80 !important;
+    cursor: default !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+    font-family: Proxima Nova !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #FFFFFF;
+    padding: 18px 0px !important;
+}
+
+.error-text {
+    position: absolute;
+    font-family: 'ProximaNova-Semibold';
+    font-style: 'Regular';
+    font-size: 14px;
+    color: #EB3B3B;
+}
+@media (max-width: 767px) {
+    .confirm-input {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border: 1px solid #7F7D80;
+        box-sizing: border-box;
+        margin-top: 16px;   
+        margin-bottom: 8px;
+        font-family: Proxima Nova;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #7F7D80;
+        display: flex;
+        justify-content: center;
+        padding: 14.5px 0;
+    }
+}

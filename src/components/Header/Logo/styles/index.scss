@@ -1,0 +1,14 @@
+.to_home-block {
+	display: none;
+} 
+
+@media(max-width: 767px){
+	.logo-account {
+		display: none;
+	}
+	.to_home-block {
+	 margin-top: 20px;
+		display: inline-block;
+	} 
+	
+}

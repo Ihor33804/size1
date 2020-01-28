@@ -1,0 +1,26 @@
+.container-background {
+  background: #f5f3fa
+    url("../../../../assets/images/background_image_friend.png") no-repeat;
+  background-size: cover;
+  // padding-top: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 991px) {
+  .container-background {
+    background: #f5f3fa
+      url("../../../../assets/images/background_image_friend_md.png") no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-background {
+    background: #f5f3fa
+      url("../../../../assets/images/background_image_friend_sm.png") no-repeat;
+    background-size: cover;
+  }
+}

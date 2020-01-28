@@ -1,0 +1,33 @@
+.show-password-image-block-register {
+    position: relative;
+}
+.show-password-image-register {
+    position: absolute;
+    right: 20px;
+    top: -34px;
+    cursor: pointer;
+}
+
+.show-password-image-text-register {
+    position: absolute;
+    right: 20px;
+    top: -44px;
+    cursor: pointer;
+}
+
+
+@media(max-width: 767px) {
+    .show-password-image-register {
+        top: -44px;
+    }
+    .show-password-image-text-register {
+        top: -54px;
+    }
+}
+
+@media (max-width: 568px) { 
+    .g-recaptcha iframe{
+        transform:scale(0.8)!important;
+        transform-origin:0 0!important;
+    }
+}

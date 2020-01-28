@@ -1,0 +1,161 @@
+.taking-part-draw {
+    padding-top: 130px;
+    padding-bottom: 90px;
+}
+.for-you-block {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.for-you-image {
+    position: absolute;
+    top: 70px;
+}
+ .for-you {
+    position: absolute;
+    font-size: 200px;
+    color: rgba(255, 255, 255, 0.09);
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+ .title {
+    font-family: 'ProximaNova-Semibold';
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 8em;
+    line-height: 50px;
+}
+ .text {
+    font-size: 20px;
+    text-align: center;
+    margin: 1em 11em 2em;
+    color: #ffffff;
+    font-weight: 100;
+}
+.item-image {
+    margin: 0 auto;
+    display: flex;
+    max-width: 290px;
+    height: auto;
+}
+.item-title {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.item-friends {
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+.title .title-block-part {
+    display: initial;
+}
+@media(max-width: 1200px) {
+    .title {
+        margin: 0 2em;
+    }
+    .text {
+        margin: 1em 5em 2em;
+    }
+}
+@media(max-width: 991px) {
+    .taking-part-draw {
+        padding-bottom: 0;
+    }
+     .title {
+        font-size: 36px;
+        line-height: 44px;
+        font-family: 'Proxima Nova';
+        font-weight: 400;
+    }
+    .text {
+        font-size: 18px;
+        line-height: 24px;
+        opacity: 0.9;
+        margin: 1em 1em 2em;
+    }
+    .products-block {
+        display: none;
+    }
+    
+    .for-you {
+        font-size: 140px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+     .item-image {
+        max-width: 270px;
+        width: 100%;
+        height: auto;
+      
+    }
+    .slider-lg {
+        display: none;
+    }
+}
+@media(max-width: 767px) {
+     .title {
+        font-size: 22px;
+        line-height: 24px;
+
+    }
+    .title .title-block-part {
+        display: block;
+       // font-weight: 600;
+    }
+    .title-drifts {
+        display: none;
+    }
+    .text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .item-title {
+        font-size: 18px;
+        line-height: 22px;
+     
+    }
+    .item-friends {
+        font-size: 14px;
+        line-height: 17px;
+    }
+     .for-you {
+        font-size: 100px;
+     }
+     .for-you-image {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .text {
+        margin: 20px auto;
+        max-width: 262px;
+        width: 100%;
+   }
+}
+
+@media(max-width: 568px) {
+    .taking-part-draw {
+        padding-top: 50px;
+    }
+     .title {
+        margin: 40px auto 0;
+      //  max-width: 170px;
+    }
+     .for-you {
+        font-size: 50px;
+     }
+    
+}
+@media(max-width: 480px) {
+    .item-title {
+        margin: 0 0.5em;
+    }
+}

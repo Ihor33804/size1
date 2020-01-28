@@ -1,0 +1,66 @@
+@import "../../../../styles/variables";
+
+.main-headline {
+  font-family: "ProximaNova-Semibold";
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  margin: 0;
+  color: $black;
+}
+
+.second-headline {
+  font-family: 'ProximaNova-Semibold';
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+  margin: 0;
+  color: $black;
+}
+
+.main-text {
+  font-family: "Proxima Nova";
+  font-size: 20px;
+  line-height: 25px;
+  margin: 0;
+  color: $black;
+}
+
+.subtitile {
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  color: $black;
+}
+
+.small-text {
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+  color: $gray;
+}
+@media (max-width: 991px) {
+  .small-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 768px) {
+.main-headline {
+      font-size: 22px;
+      line-height: 24px;
+  }
+ .small-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .second-headline {
+    font-size: 18px;
+    line-height: 22px;
+  } 
+
+}

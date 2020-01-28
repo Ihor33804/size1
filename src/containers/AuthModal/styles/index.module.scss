@@ -1,0 +1,86 @@
+.email-container{
+  margin-bottom: 17px;
+}
+
+.phone-container{
+  margin-bottom: 17px;
+}
+
+.forgot-password, .forgot-password:hover {
+  margin-left: 0;
+  padding-left: 0!important;
+  padding-bottom: 0!important;
+  padding-top: 0!important;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #FFC70B;
+}
+.mainButtonStyle  {
+  background-color: #7F7D80!important;
+}
+.styleBut {
+  background: #131313!important;
+  border-color: #131313!important;
+  width: 100%!important;
+}
+.warning-block {
+  position: relative;
+}
+.warning {
+  font-family: 'ProximaNova-Semibold';
+  font-size: 14px;
+  line-height: 17px;
+  color: #EB3B3B;
+  position: absolute;
+  top: -20px;
+}
+.recapcha-block {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.error-text-block-step {
+  position: relative;
+}
+.error-text-recapcha {
+  position: absolute;
+  top: -20px;
+  font-family: 'ProximaNova-Semibold';
+  font-size: 14px;
+  color: #EB3B3B;
+}
+
+.recapcha-block {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+// .rc-anchor-compact {
+//     display: none;
+// }
+
+
+
+@media (max-width: 767px) {
+  .phone-container, .email-container {
+    margin-bottom: 15px;
+  }
+  .warning {
+    top: -17px;
+  }
+  .error-text-recapcha {
+    top: -15px;
+    font-size: 14px;
+    line-height: 10px;
+  }
+  .forgot-password, .forgot-password:hover {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 568px) {
+  // .rc-anchor-normal {
+  //     display: none;
+  // }
+  // .rc-anchor-compact {
+  //     display: block;
+  // }
+}

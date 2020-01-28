@@ -1,0 +1,13 @@
+.container {
+  padding: 30px 45px 40px;
+  max-width: 477px;
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.16);
+}
+
+@media (max-width: 568px) {
+    .container {
+      padding: 20px 15px 40px;
+    }
+}

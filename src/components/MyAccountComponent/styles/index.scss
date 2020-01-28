@@ -1,0 +1,46 @@
+.my-account-tabs .nav-tabs {
+    border: 0;
+    cursor: pointer;
+    padding-bottom: 40px;
+}
+.my-account-tabs .nav-tabs .nav-link {
+    font-family: Proxima Nova;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.2);
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 60px;
+}
+.my-account-tabs .nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+.my-account-tabs .nav-tabs .nav-link.active {
+    background-color: transparent;
+    border-color: transparent;
+    //font-weight: 600;
+    font-family: 'ProximaNova-Semibold';
+    color: #000000;
+    background: url("../../../assets/images/point.png") no-repeat;
+    background-position-y: 100%;
+    background-position-x: center;
+}
+@media(max-width: 991px) {
+    .my-account-tabs .nav-tabs {
+        padding-bottom: 25px;
+    }
+}
+@media(max-width: 768px) {
+    .my-account-tabs .nav-tabs .nav-link {
+        font-size: 18px;
+        line-height: 25px;
+       
+    }
+    .my-account-tabs .nav-tabs {
+        padding-bottom: 25px;
+    }
+
+    .my-account-tabs .nav-tabs .nav-link.active {
+        //background-position: 30% 100%;
+    }
+}

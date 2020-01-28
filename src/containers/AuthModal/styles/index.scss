@@ -1,0 +1,28 @@
+.show-password-image-block-auth {
+  position: relative;
+}
+.show-password-image-auth {
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.show-password-image-text-auth {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+
+
+
+@media (max-width: 568px) {
+    .g-recaptcha_auth iframe{
+    transform:scale(0.8)!important;
+    transform-origin:0 0!important;
+  }
+}

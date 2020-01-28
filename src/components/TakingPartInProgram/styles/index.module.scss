@@ -1,0 +1,387 @@
+.taking-part-program {
+    margin-top: 75px;
+}
+
+.taking-part-program .title , .taking-part-program .title-program ,.taking-part-program .title-adaptive{
+    font-family: 'ProximaNova-Semibold';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+.taking-part-program .title-program {
+    font-size: 50px;
+    line-height: 58px;
+    margin-top: 180px;
+    text-align: left;
+}
+.taking-part-program .title-adaptive {
+    display: none;
+}
+.taking-part-program .content-block {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.taking-part-program .content-block .image-gold {
+    background: url("../../../assets/images/Home_image_gold.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    position: absolute;
+
+}
+.taking-part-program .content-block-steps {
+    padding-bottom: 9px;
+}
+.taking-part-program .content-block-title-number { 
+    font-family: Proxima Nova;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    color: #E1C6A4;
+}
+.taking-part-program .content-block-title {
+    font-family: Proxima Nova;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #E1C6A4;
+    // word-spacing: 10px;
+    
+}
+.taking-part-program  .line {
+    white-space: pre;
+    border-bottom: 3px solid #E1C6A4;
+    max-width: 35px;
+    width: 100%;
+    display: inline-block;
+    margin: 0 25px;
+    vertical-align: super;
+}
+.taking-part-program .content-block-text {
+    font-family: Proxima Nova;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+.taking-part-program .second-block {
+    padding-right: 15px;
+}
+.taking-part-program .third-block {
+    padding-right: 75px;
+}
+.taking-part-program .content-block-text .bold {
+    font-weight: 600;
+}
+.taking-part-program .content-block-present {
+ //   padding-bottom: 50px;
+} 
+.taking-part-program .content-block-present .for-friend-block {
+    display: flex;
+    justify-content: flex-end;
+   // margin-left: 15%;
+}
+.taking-part-program .content-block-present .for-friend {
+    position: absolute;
+    top: -60px;
+    font-size: 200px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    opacity: 0.5;
+    
+}
+.taking-part-program .content-block-present .for-friend-image {
+    position: absolute;
+    top: 115px;
+    right: 90px;
+    opacity: 1;
+}
+.present-block-image-sm {
+    display: none;
+}
+.taking-part-program .content-block-present .present-block-image, .present-block-image-sm {
+    width: 100%;
+    height: auto;
+}
+.taking-part-program .content-block-present .present-image {
+    background: url("../../../assets/images/front.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    position: absolute;
+}
+.taking-part-program .content-block-present .title {
+    text-align: left;
+    padding-right: 35px;
+    padding-top: 100px;
+}
+.taking-part-program .content-block-present .list {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.taking-part-program .content-block-present .list>ul {
+    list-style-image: url("../../../assets/images/list-marker-rose.png");
+    padding-left: 18px;
+}
+.taking-part-program .content-block-present .list>ul li {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.taking-part-program .content-block-present .button {
+    max-width: 240px;
+    margin-bottom: 180px;
+}
+
+.image-gold-md {
+    display: none;
+}
+.styleBut  {
+    background: #131313!important;
+    border-color: #131313!important;
+
+
+}
+.styleBut:hover  {
+    background: #ffc70b!important;
+    color: #26242c!important;
+    border-color: #ffc70b!important;
+
+}
+@media (max-width: 1200px) {
+    .taking-part-program .content-block-present .present-block-image , .present-block-image-sm{
+        margin-top: 60px;
+    }
+    .taking-part-program .content-block-present .for-friend-image {
+        top: 55px;
+        right: 0px;
+    }
+}
+@media (max-width: 1024px) {
+    .taking-part-program .content-block-present .for-friend-block {
+
+        margin-left: 0;
+    }
+}
+@media (max-width: 991px) { //планшет
+    .taking-part-program .content-block-present {
+        padding-top: 0px;
+    }
+    .taking-part-program .content-block {
+        margin-top: 50px;
+    }
+    .taking-part-program .title {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .taking-part-program .title-program {
+        margin-top: 100px;
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .taking-part-program .content-block-present .list {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .taking-part-program .content-block-title-number { 
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .taking-part-program .content-block-title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .taking-part-program .content-block .image-gold {
+        background: url("../../../assets/images/Home_image_gold-md.png") no-repeat;
+        background-size: contain;
+        left: 0;
+    }
+    .taking-part-program .content-block-steps {
+        padding-bottom: 20px;
+    }
+    .taking-part-program .content-block-text {
+        padding-bottom: 30px;
+    }
+    .taking-part-program .content-block-title {
+        font-size: 22px;
+
+    }
+    .taking-part-program .content-block-text { 
+        font-size: 18px;
+    }
+    .taking-part-program .content-block-present .for-friend {
+        font-size: 140px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .taking-part-program .content-block-present .for-friend-image {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        top: 45px;
+        left: 0;
+        right: 0;
+
+    }
+    .taking-part-program .content-block {
+        margin-bottom: 40px;
+    }
+    .image-gold {
+        display: none;
+    }
+    .image-gold-md {
+        display: block;
+        position: absolute;
+        left: 0;
+    }
+
+    .taking-part-program .second-block {
+        padding-right: 0;
+    }
+    .taking-part-program .third-block {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767px) { //телефон
+    
+    .taking-part-program {
+        margin-top: 33px;
+    }
+    .taking-part-program .content-block {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .taking-part-program .content-block-present {
+        padding-top: 90px;
+    }
+
+    .taking-part-program .title {   
+        margin: 0 auto;
+        //max-width: 180px;
+        width: 100%;
+    }
+    .taking-part-program .title .title-block {
+        display: block;
+    }
+    .taking-part-program .title , .taking-part-program .title-program , .taking-part-program .title-adaptive {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .taking-part-program .title-program {
+        display: none;;
+    }
+    .taking-part-program .title-adaptive {
+        display: block;
+        text-align: left;
+        max-width: 200px;
+        width: 100%;
+        font-weight: 600;
+    }
+    .taking-part-program .content-block-title-number { 
+        font-size: 20px;
+         line-height: 24px;
+    }
+    .taking-part-program .content-block-title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .taking-part-program .content-block .image-gold {
+        display: none;
+    }
+    .taking-part-program .content-block-steps {
+        padding-bottom: 0px;
+    }
+    .taking-part-program .content-block-present .list {
+        margin-top: 0px;
+        
+    }
+    .taking-part-program .content-block-present .list>ul li {
+        font-size: 14px;
+        line-height: 34px;
+        padding-bottom: 0px;
+    }
+    .taking-part-program .content-block-text { 
+        margin: 5px 0 27px;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0;
+    }
+    .taking-part-program .present-block-image {
+        display: none;
+    }
+    .present-block-image-sm {
+        display: flex;
+        margin: 0 auto;
+    }
+    .taking-part-program .content-block-present .for-friend {
+        font-size: 100px;
+        top: 0;
+    }
+    .taking-part-program .content-block-present .for-friend-image {
+        top: -40px;
+    }
+    
+    .taking-part-program .content-block-present .button {
+        max-width: initial;
+        margin-bottom: 50px;
+    }  
+    .taking-part-program .content-block-present .present-block-image, .present-block-image-sm {
+        margin-top: 0px;
+    }
+    .image-gold-md {
+        display: none;
+    }
+
+    .taking-part-program  .line {
+        border-bottom: 2px solid #E1C6A4;
+        max-width: 20px;
+        margin: 0 5px;
+       
+    }
+    .title-adaptive-logic-compact {
+        display: none;
+    }
+
+    // .taking-part-program .first-block {
+    //     max-width: 200px;
+    //     width: 100%;
+    // }
+    // .taking-part-program .second-block {
+    //     max-width: 200px;
+    //     width: 100%;
+    // }
+}
+
+@media (max-width: 568px) { //телефон
+    .taking-part-program .present-block-image, .present-block-image-sm {
+            max-width: 300px;
+    }
+    .taking-part-program .content-block-present .for-friend {
+        font-size: 50px;
+        margin: 0 auto;
+        top: -50px;
+    }
+    .taking-part-program .content-block-present .for-friend-image {
+        top: -20px;
+    }
+}
+
+@media (max-width: 480px) { //телефон
+    .taking-part-program .present-block-image, .present-block-image-sm {
+        max-width: 280px;
+        width: 100%;
+    }
+  
+}
+@media (max-width: 320px) { //телефон
+    .taking-part-program .third-block {
+    //    padding-right: 80px;
+    }
+}

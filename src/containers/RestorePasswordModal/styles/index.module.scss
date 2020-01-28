@@ -1,0 +1,54 @@
+.email-container{
+  margin-bottom: 17px;
+}
+
+.phone-container{
+  margin-bottom: 30px;
+}
+
+.forgot-password, .forgot-password:hover {
+  margin-left: 0;
+  padding-left: 0;
+  color: #FFC70B;
+}
+.arrow-back {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.arrow-back img {
+  padding-right: 5px;
+}
+.warning-block {
+  position: relative;
+}
+.warning {
+  font-family: Proxima Nova;
+  font-size: 13px;
+  line-height: 17px;
+  color: #EB3B3B;
+  position: absolute;
+  top: -16px;
+
+}
+.confirm-image-block {
+  position: relative;
+}
+.confirm-image {
+  position: absolute;
+  right: 20px;
+  top: -70px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .arrow-back {
+    margin-top: 30px;
+  }
+  .phone-container{
+    margin-bottom: 16px;
+  }
+  .confirm-image {
+    top: -60px;
+
+  }
+}

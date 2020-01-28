@@ -1,0 +1,500 @@
+ 
+ .account-content {
+    // background: #F5F3FA url("./background-account.png");
+    background: #F5F3FA url("../../../assets/images/background-account.png") no-repeat;
+    background-size: contain;
+}
+.account-main {
+    background: #F5F3FA url("../../../assets/images/background-account.png") no-repeat;
+    background-size: contain;
+}
+.account-background {
+    background: #F5F3FA 
+}
+    .adapt-lg {
+        display: inline-block;
+    }
+    .adapt-md {
+        display: none;
+    }
+
+ .to_home {
+    margin-top: 20px;
+    font-family: Proxima Nova;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    padding-left: 0!important;
+    cursor: pointer;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main-headline {
+    font-family: "ProximaNova-Semibold";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    margin: 0;
+    color: #000000;
+  }
+  
+.copy-text-block {
+    background: #fff url("../../../assets/images/copy-text-block.png") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 2px;
+    padding: 25px 0 30px;
+    margin: 0 0px 22px;
+    box-shadow: 0px 8px 24px rgba(131, 111, 182, 0.15);
+    // box-shadow: 0 14px 22px rgba(0, 0, 0, 0.4);
+}
+.copy-text-block .copy-text {
+    margin: 0 auto;
+    text-align: center;
+
+}
+.copy-text-block .copy-image {
+    margin-bottom: 10px;
+}
+.copy-text-block .copy-image-adapt {
+    display: none;
+}
+
+.title-block, .title-block-step {
+    font-family: 'ProximaNova-Semibold';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+
+}
+.title-block {
+    font-size: 14px;
+    
+}
+.copy-text-block .hello, .copy-text-block .note {
+    font-family: Proxima Nova;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8E8C91;
+}
+.copy-text-block .note {
+    margin: 5px auto 15px; 
+    max-width: 350px;
+    width: 100%;
+   
+}
+
+.copy-text-block .url {
+    font-family: Proxima Nova;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline!important;
+    color: #FFC70B!important;
+    cursor: pointer!important;
+    background: #fff!important;
+}
+.steps-block {
+    margin-bottom: 20px;
+}
+.steps-block .steps-image {
+    display: flex;
+    margin: 0 auto 10px;
+} 
+.steps-block .text {
+    font-family: Proxima Nova;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+.steps-block .first-block  {
+    max-width: 230px;
+    width: 100%;
+}
+.steps-block .first-block span {
+    display: block;
+}
+.steps-block .second-block {
+    max-width: 163px;
+    width: 100%;
+}
+.third-block {
+    margin: 0 auto!important;
+    max-width: 204px;
+    width: 100%;
+}
+.icon-arrow1 {
+    position: absolute;
+    left: 30%;
+    top: 1.2em;
+}
+.icon-arrow2 {
+    position: absolute;
+    left: 62%;
+    top: 1.2em;
+}
+.statistics {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.statistics .list-friends {
+    padding-top: 20px;
+}
+.statistics .friend {
+    background: #FFFFFF;
+    color: #000000;
+    font-family: 'ProximaNova-Semibold';
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+}
+
+.navlink-style-point{
+}
+
+.get-present {
+    display: inline;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8E8C91;
+    font-weight: 300;
+  
+}
+.present-info-block {
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    padding: 15px;
+    //display: none;
+    margin-top: 18px;
+}
+.present-info-block-image {
+    padding-right: 14px;
+}
+.present-info-block-text {
+    font-size: 14px;
+    line-height: 18px;
+    color: #8E8C91;
+    max-width: 700px;
+    width: 100%;
+}
+
+.statistics .present {
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    z-index: 10;
+    float: right;
+    cursor: pointer;
+}
+.image-line {
+    display: none;
+}
+.steps-image-block {
+    display: none;
+}
+.get-present-block {
+    text-align: right;
+}  
+
+.styleBut {
+    margin-top: 20px;
+    background: #131313!important;
+    border-color: #131313!important;
+    max-width: 350px!important;
+    width: 100%!important;
+    padding: 14px 0px !important;
+}
+.styleBut:hover {
+    background: #FFC70B!important;
+    border-color: #FFC70B !important;
+    color: #26242c!important;
+}
+.copied-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */
+    .copied-block {
+        left: -13%;
+    }
+}
+.copied {
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.16);
+    max-width: 215px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px 14px;
+   
+}
+.copied::before {
+    content: ''; 
+    position: absolute; 
+    left: 45%;
+    top: -20px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #FFFFFF;
+   }
+.copied .copied-text {
+    font-family: Proxima Nova;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    text-align: center;
+}
+
+.link-block {
+    border: 2px solid #F0F0F0;
+    box-sizing: border-box;
+    max-width: 465px;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+.no-friends-block {
+    max-width: 480px;
+    width: 100%;
+    margin-top: 40px;
+}
+.no-friends-block-title {
+    font-family: "ProximaNova-Semibold";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 15px;
+
+}
+.no-friends-block-note {
+    font-size: 14px;
+    line-height: 18px;
+    color: #8E8C91;
+
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+    .copy-text-block {
+        background-size: cover;
+    }
+}
+@media(max-width: 991px) {
+    .adapt-lg {
+        display: none;
+    }
+    .adapt-md {
+        display: block;
+      
+    }
+    .back-profile {
+        background: #ffffff
+    }
+    .title-block {
+        font-size: 22px;
+    }
+    .copy-text-block {
+        // margin-bottom: 60px;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .copy-text-block .note {
+       // margin: 10px 16em;
+       margin: 10px auto;
+       max-width: 350px;
+       width: 100%;
+
+    }
+
+    .copy-text-block .url {
+        font-size: 22px;
+        margin-right: 10px;
+        overflow: hidden;
+    }
+    .title-block {
+        font-size: 22px;
+    }
+    .title-block-step {
+        font-size: 18px;
+    }
+    .steps-block .text {
+
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0 1em;
+    }
+    .main-headline {
+        font-size: 36px;
+        line-height: 48px;
+    }
+   
+    
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .my-account-tabs-content {
+        position: relative;
+        top: -20px;
+    }
+}
+@media(max-width: 767px) {
+    .copy-text-block {
+        padding-left: 15px;
+        padding-right: 15px;
+        background: #fff;
+    }
+    .copy-text-block .note {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .copy-text-block .copy-text,  .title-block  {
+        text-align: left;
+    }
+ 
+    .copy-text-block .url {
+        padding: 0;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .copy-text-block .copy-image {
+        display: none;
+    }
+    .copy-image-block {
+        position: absolute;
+        right: 0;
+    }
+    .copy-text-block .copy-image-adapt {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: -25px;
+    }
+    .to_home {
+        display: none!important;
+    }    
+    .title-block {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 10px;
+        margin-right: 65px;
+    }
+
+    .icon-arrow1 ,.icon-arrow2 { 
+        display: none;
+    }
+    .steps-block .steps-image {
+        margin: 0;
+        margin-right: 30px;
+        float: left;
+    }
+    .title-block, .title-block-step , .steps-block .text {
+        text-align: left;
+    }
+    .steps-block .text {
+        display: flex;
+        color: #8E8C91;
+        margin: 0;
+        line-height: 24px;
+    }
+    .statistics .friend { 
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .main-headline {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .image-line {
+        display: block;
+    }
+    .steps-image {
+        display: none!important;
+    }
+    .steps-image-block {
+        display: block;
+        
+    }
+    .steps-block .text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .title-block, .title-block-step {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+    .steps-block {
+        margin-bottom: 60px;
+        
+     }
+     .adapt-md {
+        background: transparent;
+    }
+    .third-block {
+        margin: 0!important;
+    }
+    .copy-text-block .url {
+        overflow-x: auto;
+    }
+    .steps-block .first-block  {
+        max-width: initial;
+        width: 100%;
+    }
+    .steps-block .first-block span {
+        display: contents;
+    }
+    .steps-block .second-block  {
+        max-width: initial;
+        width: 100%;
+    }
+    .third-block {
+        max-width: initial;
+        width: 100%;
+    }
+    .present-info-block {
+        display: flex;
+    }
+    .navlink-style-point{
+        font-size: 18px!important;   
+    }  
+    .get-present-block {
+        display: none;
+      
+    }  
+
+    .link-block {
+        margin: 0;
+        width: 100%;
+    }
+    .styleBut {
+        max-width: 100%!important;
+    }
+
+    .no-friends-block {
+        background: rgba(255, 255, 255, 0.5);
+        padding: 15px;
+        margin-top: 18px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .present-info-block-text {     
+        max-width: 210px;
+    }
+    
+}
+
+
+@media(max-width: 480px) {
+    .steps-block {
+        margin-bottom: 45px;
+        
+     }
+
+}

@@ -1,0 +1,46 @@
+.main-button-container {
+  display: flex; 
+  justify-content: center;
+}
+
+.text-align {
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.span-text{
+  font-weight: bold;
+}
+.agreement {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.main-button-container a {
+  max-width: 106px;
+  width: 100%;
+}
+
+.yes-button{
+  background-color: #131313!important;
+  width: 100%;
+  max-width: 106px;
+  border-radius: 0;
+  margin-right: 30px;
+}
+
+.no-button {
+  border: 1px solid #131313;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255)!important;
+  width: 100%;
+  max-width: 106px;
+  color: #000000!important;
+  border-radius: 0;
+}
+
+@media (max-width: 768px) {
+  .text-align {
+    font-size: 16px;
+  }
+}

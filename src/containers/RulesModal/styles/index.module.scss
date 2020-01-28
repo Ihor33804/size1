@@ -1,0 +1,68 @@
+.container {
+
+}
+
+.close-icon-container{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.h3 {
+  font-size: 30px;
+}
+
+$padding-horintal : 153px;
+
+.main-text-container {
+  padding-top:  47px;
+  padding-left:  $padding-horintal;
+  padding-right:  $padding-horintal;
+  padding-bottom:  70px;
+}
+
+$padding-horintal : 80px;
+
+
+.container1-text, .container2-text{
+  font-family: 'Proxima Nova';
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.container1-text{
+  margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+    .main-text-container{
+      padding-left: $padding-horintal;
+      padding-right:  $padding-horintal;
+      padding-bottom:  36px;
+    }  
+    .h3 {
+        font-size: 38px;
+      }
+  }
+  
+  $padding-horintal : 30px;
+  
+  @media (max-width: 767px) {
+    .main-text-container{
+      padding-top:  0px;
+      padding-left: $padding-horintal;
+      padding-right:  $padding-horintal;
+      padding-bottom:  36px;
+    }  
+    .h3 {
+        font-size: 22px;
+      }
+
+      .container1-text, .container2-text{
+        font-size: 12px;
+        line-height: 20px;
+      }
+  }
+  

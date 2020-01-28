@@ -1,0 +1,269 @@
+@import "../styles/variables";
+
+html {
+  min-height:100%;
+  position:relative;
+}
+.main-headline {
+  font-family: "ProximaNova-Semibold";
+  text-align: center;
+  font-size: 40px;
+  line-height: 48px;
+  margin: 0;
+  color: $black;
+}
+
+.second-headline {
+  font-family: "ProximaNova-Semibold";
+  font-size: 30px;
+  line-height: 48px;
+  margin: 0;
+  color: $black;
+}
+
+.main-text {
+  font-family: "Proxima Nova";
+  font-size: 20px;
+  line-height: 25px;
+  margin: 0;
+  color: $black;
+}
+
+.subtitile {
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  color: $black;
+}
+
+.small-text {
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+  color: $gray;
+}
+
+.btn-secondary{
+  background-color: #7F7D80!important;
+  border-color: #7F7D80!important;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    src: url('./fonts/ProximaNova-Regular/ProximaNova-Regular.eot'); /* IE9 Compat Modes */
+    src: local('Proxima Nova'), local('Proxima Nova'),
+         url('./fonts/ProximaNova-Regular/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/ProximaNova-Regular/ProximaNova-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/ProximaNova-Regular/ProximaNova-Regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/ProximaNova-Regular/ProximaNova-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./fonts/ProximaNova-Regular/ProximaNova-Regular.svg#svgProximaNova-Regular') format('svg') /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  font-style: normal;
+  src: url('./fonts/ProximaNova-Semibold/ProximaNovaSemibold.eot'); /* IE9 Compat Modes */
+  src: local('ProximaNova-Semibold'), local('ProximaNova-Semibold'),
+       url('./fonts/ProximaNova-Semibold/ProximaNovaSemibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/ProximaNova-Semibold/ProximaNovaSemibold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/ProximaNova-Semibold/ProximaNovaSemibold.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/ProximaNova-Semibold/ProximaNovaSemibold.ttf') format('truetype'), /* Safari, Android, iOS */
+      url('./fonts/ProximaNova-Semibold/ProximaNovaSemibold.svg#svgProximaNovaSemibold') format('svg') /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Logica';
+  font-style: normal;
+  src: url('./fonts/Logica/LOGICA.eot'); /* IE9 Compat Modes */
+  src: local('Logica'), local('Logica'),
+       url('./fonts/Logica/LOGICA.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/Logica/LOGICA.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/Logica/LOGICA.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/Logica/LOGICA.ttf') format('truetype'), /* Safari, Android, iOS */
+     //  url('./fonts/ProximaNova-Regular/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg'); /* Legacy iOS */
+}
+
+body {
+    font-family: 'Proxima Nova'!important;
+    text-rendering: geometricPrecision; 
+    overflow-y: scroll;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.custom-control-input:not(:disabled):active~.custom-control-label::before {
+    background-color: #eaecee!important;
+    border-color: #eaecee!important;
+}
+.custom-control-input:checked~.custom-control-label::before {
+  border-color: #000000!important;
+  background-color: #ffffff!important;
+  background: url(../assets/svgs/Shape.svg) no-repeat;
+  background-position: center;
+  background-size: 80%;
+  z-index: 2;
+}
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0!important;
+}
+.custom-control-label {
+  font-family: Proxima Nova;
+  font-size: 13px;
+  line-height: 17px;
+  color: #8E8C91;
+  padding-top: 5px;
+}
+
+/*Slick-slider*/
+.slick-next {
+  z-index: 10;
+
+}
+.slick-next:before {
+  //content: url('../assets/images/slider-arrow-right_.png') !important;
+
+  content: ' ' !important;
+  background-image: 
+        url('data:image/svg+xml;utf8,<svg viewBox="0 0 7 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L6 8.5L0.999999 16" stroke="white"/></svg>');
+      
+  background-repeat: no-repeat;
+ // background-position: right;
+  height: 30px;
+ // width: 11px;
+  display: block;
+}
+.slick-prev {
+  z-index: 10;
+}
+
+.slick-prev:before {
+ // content: url('../assets/images/slider-arrow-left_.png') !important;
+
+ content: ' ' !important;
+ background-image: 
+       url('data:image/svg+xml;utf8, <svg  viewBox="0 0 7 17" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M6 1L1 8.5L6 16" stroke="white"/> </svg> ');
+     
+ background-repeat: no-repeat;
+ height: 30px;
+ //width: 11px;
+ display: block;
+} 
+.slick-prev, .slick-next {
+  width: 20px!important;
+  height: 35px!important;
+}
+
+.modal-content {
+  width: 100%;
+  max-width: 479px;
+  top: 100px;
+}
+.modal-dialog {
+  margin: 0 auto!important;
+}
+
+.ReactPasswordStrength {
+  border: 0!important;
+}
+.ReactPasswordStrength-strength-desc {
+  font-family: 'Proxima Nova'!important;
+  font-size: 13px!important;
+  position: absolute;
+  top: 40px!important;
+  left: 0!important;
+  text-align: left!important;
+  width: 100%!important;
+}
+.ReactPasswordStrength.is-strength-4 .ReactPasswordStrength-strength-desc {
+  color: #07ce1f!important;
+}
+.ReactPasswordStrength.is-strength-4 .ReactPasswordStrength-strength-bar {
+  width: calc(100% + 1px)!important;
+}
+.ReactPasswordStrength-input:disabled {
+  background: #F5F3FA!important;
+}
+// .identification-tabs .form-control:disabled {
+//   background-color: #fff !important;
+//   border: 1px solid #F0F0F0!important;
+// }
+.form-control:focus {
+    background-color: #fff !important;
+    border: 1px solid #F0F0F0!important;
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type=number] {
+  -moz-appearance:textfield; /* Firefox */
+}
+.custom-control {
+  margin-right: 19px;
+}
+@media (min-width: 1200px){
+  .container {
+      max-width: 1280px!important;
+      margin-right: auto;
+      margin-left: auto;
+    }
+}
+@media(max-width: 991px) { 
+  .slick-next {
+    right: 105px!important;
+  }
+
+  .slick-prev {
+    left: 105px!important;
+  }
+  .ReactPasswordStrength-strength-desc {
+    font-size: 10px!important;
+    top: 37px!important;
+}
+}
+@media(max-width: 767px) { 
+  .slick-next {
+    right: 180px!important;
+  }
+
+  .slick-prev {
+    left: 180px!important;
+  }
+  .main-headline {
+    font-size: 26px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+
+   }
+   .ReactPasswordStrength-strength-desc {
+      font-size: 10px!important;
+      top: 37px!important;
+  }
+}
+@media(max-width: 667px) { 
+  .slick-next {
+    right: 120px!important;
+  }
+
+  .slick-prev {
+    left: 120px!important;
+  }
+}
+@media(max-width: 568px) {
+  .slick-next {
+    right: 80px!important;
+  }
+
+  .slick-prev {
+    left: 80px!important;
+  }
+}
+

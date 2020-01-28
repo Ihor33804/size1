@@ -1,0 +1,117 @@
+.profile-block {
+    padding-left: 30px;
+    padding-right: 15px;
+}
+.profile {
+    padding: 150px 35px 30px;
+    text-align: center;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.profile .name {
+    font-family: 'ProximaNova-Semibold';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #000000;
+
+}
+
+.profile .post {
+    font-family: Proxima Nova;
+    font-size: 18px;
+    line-height: 25px;
+    color: #8E8C91;
+
+}
+
+.emails {
+    margin-top: 50px;
+}
+
+
+.emails .title {
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-weight: 600;
+    color: #090909;
+    margin-bottom: 10px;
+}
+
+.emails .label {
+    font-family: Proxima Nova;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #8E8C91;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.toggle-block .toggle-image {
+    display: none;
+}
+.toggle-sm {
+     display: none;
+}
+@media(max-width: 991px) {
+    .profile {
+        padding: 20px 0;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 0;
+    }
+    .profile-block {
+        padding: 20px 15px;
+  
+    }
+    .emails {
+        margin-top: 0px;
+    }
+    .emails .title { 
+        //display: none;
+    } 
+    .profile-block {
+        margin-bottom: 40px;
+        box-shadow: 0px 8px 24px rgba(131, 111, 182, 0.15);
+    }
+  
+}
+
+@media(max-width: 768px) {
+    .profile {
+        display: block;
+        border-bottom: 0;
+        padding: 0;
+    }
+
+    .toggle-block {
+         display: flex;
+         justify-content: space-between;
+    }
+    .toggle-block .toggle-image {
+         display: block;
+         position: relative;
+         top: 35%;
+         cursor: pointer;
+    }
+
+    .toggle-lg-md {
+        display: none;
+    }
+    .toggle-sm {
+        display: flex;
+    }
+    .emails .title { 
+        display: block;
+        margin-top: 20px;
+    } 
+    .profile .name { 
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .profile .post {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}

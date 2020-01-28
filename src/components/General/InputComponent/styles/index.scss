@@ -1,0 +1,19 @@
+.is-invalid {
+    border: 1px solid #EB3B3B;
+    box-sizing: border-box;
+    color: #EB3B3B;
+}
+.form-control {
+    background: #F5F3FA;  
+}
+.form-control:disabled {
+    background: #F5F3FA;
+}
+.form-control:focus {
+    outline: none;
+    color: #000000;
+    background: #F5F3FA!important;
+    border-color: #F5F3FA!important;
+    outline: 0!important;
+    box-shadow: none!important;
+}

@@ -1,0 +1,57 @@
+.email-container {
+  margin-bottom: 24px;
+}
+
+.phone-container {
+  margin-bottom: 16px;
+}
+
+.forgot-password,
+.forgot-password:hover {
+  margin-left: 0;
+  padding-left: 0;
+  color: #ffc70b;
+}
+
+.back-arrow {
+  cursor: pointer;
+  position: absolute;
+  top: -35px;
+  left: 0;
+  display: flex;
+  align-items: baseline;
+}
+.arrow-back {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.arrow-back img {
+  padding-right: 5px;
+}
+.back-arrow span {
+  color: white;
+  font-size: 20px;
+  font-family: 'Proxima Nova';
+  margin-left: 10px;
+}
+
+.back-text{
+}
+.thank-you-block {
+  text-align: center;
+}
+@media (max-width: 991px) {
+
+  .restore-email-block {
+    padding-right: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .arrow-back {
+    margin-top: 30px;
+  }
+  .restore-email-block {
+    padding-right: 0px;
+  }
+}

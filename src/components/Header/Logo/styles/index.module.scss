@@ -1,0 +1,48 @@
+.logo-block {
+    width: 100%;
+    //height: auto;
+    height: 60px;
+}
+.logo, .back  {
+   // content: '';
+    padding-top: 20px;
+}
+
+ .to_home, .back {
+   
+    font-family: Proxima Nova;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    position: relative;
+    z-index: 20;
+}
+.back {
+    display: none;
+}
+.to_home:hover, .back:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+.logo-sm {
+    display: none;
+    margin-top: 7px;
+}
+@media (max-width: 767px) {
+    .back {
+        display: block;
+    }
+    .logo {
+        image-rendering: pixelated;
+    }
+    .to_home {
+        top: 7px;
+    }
+    .logo-md {
+        display: none;
+    }
+    .logo-sm {
+        display: block;
+    }
+}

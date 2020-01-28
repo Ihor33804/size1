@@ -1,0 +1,16 @@
+.show-password-image-block {
+    position: relative;
+}
+.show-password-image {
+    position: absolute;
+    right: 20px;
+    top: -50px;
+    cursor: pointer;
+}
+
+.show-password-image-text {
+    position: absolute;
+    right: 20px;
+    top: -60px;
+    cursor: pointer;
+}

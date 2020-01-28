@@ -1,0 +1,202 @@
+.new-background-account {
+	// background: linear-gradient(-90deg, #ffffff 38%, #F5F3FA 0);
+	// min-height: 100vh;
+    // overflow-y: hidden;
+}
+.new-background-account:before {
+	//background: linear-gradient(-90deg, #ffffff 38%, #F5F3FA 0);
+	background: #F5F3FA;
+    display: flex;
+    content: '';
+    max-width: 62%;
+    width: 100%;
+    height: 100%;
+    /* background-attachment: fixed; */
+    /* background-position: 20%; */
+    background-size: contain;
+    position: absolute;
+    background-image: url("../../../assets/images/background-account.png");
+    // background-image: url("/static/media/background-account.1a5ac514.png");
+    background-repeat: no-repeat;
+    left: 0;
+}
+
+@media(max-width: 770px){
+	.new-background-account:before {
+		background-size: cover;
+		background-position: top;
+    	position: absolute;
+		background-image: url("../../../assets/images/background-sm.png");
+	}
+}
+
+@media (max-width: 820px) and(min-width: 991px){
+	.new-background-account:before {
+		height: 820px;
+	}
+}
+
+
+
+.new-background-account:after {
+	background:  #ffffff;
+	display: flex;
+    content: '';
+    max-width: 38%;
+    width: 100%;
+    height: auto;
+	position: absolute;
+	right: 0;
+ }
+
+.container-general {
+	display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    overflow-y: hidden;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+.container-left {
+	background: #F5F3FA url("../../../assets/images/background-account.png") no-repeat;
+	background-position: inherit;
+  //  width: 64%!important;
+	background-size: contain;
+	display: flex;
+    justify-content: flex-end;
+	
+}
+
+.container-left-content {
+	max-width: 850px;
+    width: 100%;
+
+}
+.container-right {
+	background: #fff;
+    width: 60%;
+}
+.container-right-content {
+	max-width: 415px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.my-account-container {
+    // background: #ffffff ;
+
+//background: linear-gradient(-70deg,#ffffff 70%,#F5F3FA 0);
+	background: linear-gradient(-90deg, #ffffff 38%, #F5F3FA 0);
+    //background: #F5F3FA;
+  }
+
+ .main-content-md {
+ 	 display:none;
+ }
+
+ .my-account-container-ball {
+	background: #F5F3FA url("../../../assets/images/background-account.png") no-repeat;
+//	background-color: #F5F3FA;
+	//background-image: url("../../../assets/images/background-account.png"), linear-gradient(-90deg, #ffffff 70%, #F5F3FA 0);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+	min-height: 100vh;
+    overflow-y: hidden;
+}
+.my-account-container-ball  .side-content {
+	background: #fff;
+	min-height: 100vh;
+}
+
+@media(max-width: 1700px){
+	.new-background-account:before {
+		max-width: 64%;
+	}
+}
+@media(max-width: 1500px){
+	.new-background-account:before {
+		max-width: 66%;
+	}
+}
+@media(max-width: 1300px){
+	.new-background-account:before {
+		max-width: 68%;
+	}
+}
+@media(max-width: 1200px){
+	.new-background-account:before {
+		max-width: 65%;
+	}
+}
+@media(max-width: 1024px){
+	.new-background-account:before {
+		max-width: 67%;
+	}
+}
+@media(max-width: 991px){
+	.new-background-account:before {
+		max-width: 100%;
+	}
+	.new-profile {
+		display: none;
+	}
+	.new-background-account { 
+		background: #F5F3FA;
+	}
+
+ .my-account-container-ball {
+	background: #F5F3FA url("../../../assets/images/background-account.png") no-repeat;
+	background-size: contain;
+	background-position: 0 15%;
+}
+  .my-account-container {
+    background: #F5F3FA ;
+    padding-bottom: 20vh;
+  }
+
+   .side-content-profile-lg , .main-content-lg{
+        display:none;
+   }
+   .main-content-md {
+		  display: block;
+		
+	}
+	
+	.container-general {
+		background: #F5F3FA url("../../../assets/images/background-account.png") no-repeat;	
+		//background-size: cover;
+		background-size: contain;
+        background-position: initial;
+	}
+	.container-left {
+		width: 100%;
+		background: transparent ;
+		padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+	}
+	.container-left-content {
+		padding-right: 0px;
+        padding-left: 0px;
+	}
+	.container-right {
+		display: none;
+	}
+}
+
+
+
+
+@media(max-width: 767px){
+	.container-general {	
+    //	background-position: left;
+	}
+	.adaptive-header-block {
+	//	position: initial!important;
+	}
+}

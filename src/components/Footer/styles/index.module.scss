@@ -1,0 +1,83 @@
+.footer {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.footer .text, .footer .text-adaptive {
+    display: flex;
+    font-size: 12px;
+    color: #ffffff;
+    opacity: 0.7;
+}
+.footer .text-adaptive {
+    display: none;
+}
+.footer .icon {
+    padding-right: 15px;
+    margin-top: -4px;
+}
+.footer .logic-logo {
+    margin-top: -6px;
+}
+.footer .social-icon {
+    padding-left: 15px;
+}
+
+.link-logicvapes{
+    cursor: pointer;
+    padding-top: 0!important;
+}
+
+.link-logicvapes:hover{
+    text-decoration: none;
+}
+
+.footer .site, .footer .site-adaptive {
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFC70B;
+    padding-top: 0;
+}
+.footer .site-adaptive {
+    display: none;
+
+}
+.footer .social {
+    text-align: right;
+}
+
+@media(max-width: 1200px) {
+    .footer .icon {
+        margin-top: 0px;
+    }
+}
+@media(max-width: 991px) {
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+    .footer .site-block { 
+        display: none;
+    }
+    .footer .site-adaptive {
+        display: block;
+        margin-top: 20px;
+        padding: 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .footer {
+        padding-top: 26px;
+        padding-bottom: 30px;
+    }
+   .footer .text {
+        display: none;
+    }
+    .footer .text-adaptive {
+        margin-top: 20px;
+        display: flex;
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 15px;
+    }
+}

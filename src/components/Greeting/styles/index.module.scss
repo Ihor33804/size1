@@ -1,0 +1,190 @@
+.greeting {
+    // background: #F5F3FA url("../../../assets/images/Main_image_header_home.png") no-repeat;
+    // background-size: cover;
+}
+.title {
+    font-family: Logica;
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 70px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+ .text {
+    font-family: Proxima Nova;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 70px;
+   // padding-right: 75px;
+   max-width: 530px;
+   width: 100%;
+}
+
+.greeting-block {
+    margin-top: 80px;
+    position: relative;
+ 
+}
+.greeting-block .greeting-image {
+    background: url("../../../assets/images/Logic_Ambassador.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    bottom: 60%;
+    width: 100%;
+    height: 100%;
+}
+.greeting-block .logic-ambassador-text {
+    margin-bottom: 25px;
+}
+.greeting-block .logic-ambassador-text-md, .greeting-block .logic-ambassador-text-sm {
+    display: none;
+}
+.greeting-button-block {
+    max-width: 312px;
+    margin-bottom: 90px;
+}
+.greeting-auth {
+    display: none;
+}
+.greeting-account {
+    font-size: 14px;
+}
+.sign-in {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'ProximaNova-Semibold';
+    cursor: pointer;
+}
+.styleBut {
+    background: #131313!important;
+    border-color: #131313!important;
+    width: 100%!important;
+}
+.styleBut:hover {
+    background: #FFC70B!important;
+    border-color: #FFC70B !important;
+    color: #26242c!important;
+}
+.styleTop {
+    margin-top: 0px;
+}
+.styleBottom {
+    margin-bottom: 110px;
+}
+@media (max-width: 991px) { //планшет
+    
+    .greeting-block {
+        margin: 80px auto 20px;
+        text-align: center;
+        position: initial;
+    }
+   
+    .greeting-block .greeting-image {
+        background: url("../../../assets/images/Logic_Ambassador-md.png") no-repeat; 
+        left: 0;
+        top: 40px;
+        background-position: 20% 0%;
+    }
+    .greeting-block .logic-ambassador-text {
+        display: none;
+    }
+    .greeting-block .logic-ambassador-text-md {
+        display: block;
+        margin: 0 auto;
+    }
+    .title {
+        margin: 0 1em;
+        font-size: 80px;
+        line-height: 70px;
+    }
+    
+    .text {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 480px;
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 50px;
+        padding-right: 0px;
+    }
+    .greeting-button-block {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 70%;
+
+    }
+}
+
+
+@media (max-width: 767px) { //телефон
+    .title {
+        margin: 0 4em;
+        line-height: 35px;
+        font-size: 40px;
+    }
+    .text {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 290px;
+        margin-bottom: 30px;
+        font-size: 14px;
+        opacity: 0.9;
+        line-height: 18px;
+     }
+    .greeting-auth {
+        display: flex;
+        justify-content: space-between;
+        color: #000;
+        padding-top: 10px ;
+    
+    }
+    .greeting-block {
+        margin-top: 10px;
+ 
+    }
+    .greeting-block .logic-ambassador-text-md {
+        display: none;
+        margin: 0 auto;
+    }
+    .greeting-block .logic-ambassador-text-sm {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .greeting-block .greeting-image {
+        background: url("../../../assets/images/Logic_Ambassador-sm.png") no-repeat; 
+        top: 40px;
+        background-position: 25% 0%;
+    }
+    .greeting-button-block {
+        max-width: initial;
+
+    }
+}
+
+@media (max-width: 568px) { //телефон
+    .title {
+        margin: 0 1em;
+    }
+    .greeting-block .greeting-image {
+        background-position: inherit;
+    }
+}
+
+@media (max-width: 480px) { //телефон
+
+    .title {
+        margin: 0 auto;
+        width: min-content;
+        font-size: 30px;
+    }
+    .greeting-block .logic-ambassador-text-sm {
+        // max-width: 100%;
+       // margin-left: -5px;
+    }
+}

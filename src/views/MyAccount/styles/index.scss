@@ -1,0 +1,45 @@
+.account-container  {
+    overflow: hidden;
+}
+.styledMenu { 
+ 
+}
+@media (max-width: 768px) {
+    .styledMenu { 
+        position: fixed!important;
+
+        z-index: 200;
+        background: #F5F3FA;
+        width: 65%!important;
+    }
+}
+@media (max-width: 736px) {
+    .styledMenu { 
+        width: 70%!important;
+    }
+}
+@media (max-width: 667px) {
+    .styledMenu { 
+        width: 75%!important;
+    }
+}
+@media (max-width: 640px) {
+    .styledMenu { 
+        width: 78% !important;
+    }
+}
+@media (max-width: 620px) {
+    .styledMenu { 
+        width: 85%!important;
+    }
+}
+@media (max-width: 568px) {
+    .styledMenu { 
+        width: 94%!important;
+    }
+}
+@media (max-width: 480px) {
+    .styledMenu { 
+        width: 92%!important;
+    }
+}
